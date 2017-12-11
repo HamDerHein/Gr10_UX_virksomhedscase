@@ -140,7 +140,6 @@ h1 {
     background-color: #e1d7e2;
     font-size: 3.3em;
     padding: 1.3em;
-    margin-bottom: 0;
     margin: 0px;
 }
 
@@ -403,4 +402,26 @@ h1 {
 #video img {
     width: 50%;
     height: 70%;
+}
+
+/******************DATA********************/
+
+#data {
+    background-color: khaki;
+    padding: 15px;
+}
+
+#data img {
+    width: 100%;
+}
+
+/*************MOODBOARD******************/
+
+#moodboard img {
+    width: 100%;
+}
+
+#moodboard {
+    background-color: whitesmoke;
+    padding: 15px;
 }
