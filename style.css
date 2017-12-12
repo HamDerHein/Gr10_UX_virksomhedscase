@@ -2,7 +2,7 @@ body {
 
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: #b7b7b7;
 
 }
 
@@ -21,10 +21,9 @@ nav {
     margin-top: 30px;
 }
 
-
 nav {
     text-align: center;
-    background-color: #e1d7e2;
+    background-color: whitesmoke;
     font-size: 15px;
 }
 
@@ -63,8 +62,8 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #bca7b3;
-    color: #e1d7e2;
+    background-color: #a1c4c9;
+    color: whitesmoke;
 }
 
 
@@ -73,8 +72,8 @@ nav li a:hover {
 /*--------- DROPDOWN MENU ----------*/
 
 .dropbtn {
-    background-color: #bca7b3;
-    color: #e1d7e2;
+    background-color: #858588;
+    color: whitesmoke;
     padding: 15px;
     width: 113px;
     border: none;
@@ -94,12 +93,12 @@ nav li a:hover {
     display: inline-block;
     width: 100%;
     top: 0;
-    background-color: #bca7b3;
+    background-color: #858588;
     z-index: 1;
 }
 
 .dropdown ul {
-    background-color: #bca7b3;
+    background-color: #858588;
     list-style-type: none;
     text-align: left;
 }
@@ -110,20 +109,20 @@ nav li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #bca7b3;
+    background-color: #858588;
     min-width: 200px;
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #e1d7e2;
+    color: whitesmoke;
     padding: 10px;
     width: 200px;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #d3bdbd;
+    background-color: #92d4db;
     color: whitesmoke;
 }
 
@@ -136,8 +135,8 @@ nav li a:hover {
 h1 {
     margin-top: 100px;
     text-align: center;
-    color: #222933;
-    background-color: #e1d7e2;
+    color: whitesmoke;
+    background-color: #599ea1;
     font-size: 3.3em;
     padding: 1.3em;
     margin: 0px;
@@ -145,15 +144,10 @@ h1 {
 
 /************************* EXPERIENCE MAP****************/
 
-#kant {
-    margin: 0 8vw;
-}
-
-
 #experience_map {
-    background-color: #222933;
+    background-color: #3a3a3a;
     padding: 15px;
-    color: #e1d7e2;
+    color: whitesmoke;
 
 
 
@@ -161,19 +155,18 @@ h1 {
 
 #experience_map h2 {
 
-    color: #e1d7e2;
+    color: whitesmoke;
 
 }
 
 #map h3 {
     text-align: center;
-    color: #e1d7e2;
+    color: whitesmoke;
 }
 
 #tests {
     display: flex;
     flex-wrap: wrap;
-
     text-align: center;
 }
 
@@ -215,7 +208,7 @@ h1 {
 /*********************PERSONA**************/
 
 #persona {
-    background-color: aliceblue;
+    background-color: #599ea1;
     padding: 15px;
 }
 
@@ -225,14 +218,14 @@ h1 {
 /********BRUGER INTERVIEW**********/
 
 #interview {
-    background-color: skyblue;
+    background-color: #3a3a3a;
     padding: 15px;
 }
 
 /************design  chartte*****/
 
 #design {
-    background-color: coral;
+    background-color: #599ea1;
     padding: 15px;
 }
 
@@ -302,7 +295,7 @@ h1 {
 /***********************STORYBOARD*********/
 
 #storyboards {
-    background-color: lavender;
+    background-color: #3a3a3a;
     padding: 15px;
 
 }
@@ -311,26 +304,26 @@ h1 {
 /*********AKTIVITET OG FEATURES*****/
 
 #aktiviteter_features {
-    background-color: beige;
+    background-color: #599ea1;
     padding: 15px;
 }
 
 
 .event1 {
-    background-color: lavenderblush;
+    background-color: #0e545d;
     padding: 15px;
 
 }
 
 
 .community1 {
-    background-color: floralwhite;
+    background-color: #52504e;
     padding: 15px;
 
 }
 
 .check1 {
-    background-color: peachpuff;
+    background-color: #0e545d;
     padding: 15px;
 }
 
@@ -340,7 +333,7 @@ h1 {
 /********VIDEO******/
 
 #video {
-    background-color: firebrick;
+    background-color: #3a3a3a;
     padding: 15px;
 }
 
@@ -360,7 +353,7 @@ h1 {
 }
 
 #ideer h4 {
-    color: #e1d7e2;
+    color: whitesmoke;
     ;
 }
 
@@ -407,7 +400,7 @@ h1 {
 /******************DATA********************/
 
 #data {
-    background-color: khaki;
+    background-color: #599ea1;
     padding: 15px;
 }
 
@@ -422,6 +415,41 @@ h1 {
 }
 
 #moodboard {
-    background-color: whitesmoke;
+    background-color: #3a3a3a;
     padding: 15px;
+}
+
+
+/************* trello*********/
+
+#trello h3 {
+    font-family: "Flama Condensed Bold";
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#trello {
+    text-align: center;
+    color: whitesmoke;
+    background-color: #599ea1;
+}
+
+#trello img {
+    width: 20%;
+}
+
+
+/************FONTE*********/
+
+p,
+li,
+h2,
+h3,
+h4 {
+    color: whitesmoke;
+    font-family: "Flama Light";
+
 }
