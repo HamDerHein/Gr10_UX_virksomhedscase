@@ -2,7 +2,6 @@ body {
 
     margin: 0;
     padding: 0;
-    background-color: #b7b7b7;
 
 }
 
@@ -408,6 +407,34 @@ h1 {
     width: 100%;
 }
 
+
+
+
+
+/*********FORRETNING******/
+
+#forretningsmodel {
+    background-color: #3a3a3a;
+    padding: 15px;
+    color: whitesmoke;
+}
+
+
+#UI {
+    background-color: #599ea1;
+    padding: 15px;
+    color: whitesmoke;
+
+}
+
+
+#design1 {
+    background-color: #3a3a3a;
+    padding: 15px;
+    color: whitesmoke;
+
+}
+
 /*************MOODBOARD******************/
 
 #moodboard img {
@@ -415,9 +442,58 @@ h1 {
 }
 
 #moodboard {
-    background-color: #3a3a3a;
+    background-color: #599ea1;
     padding: 15px;
+
 }
+
+
+/***********STYLETILE***********/
+
+/**********SCRUM VIDEO**************/
+
+#scrumvideo {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#scrum h3 {
+
+    color: whitesmoke;
+}
+
+#scrum {
+    padding: 15px;
+    background-color: #3a3a3a;
+    color: whitesmoke;
+}
+
+
+#scrum h4 {
+    color: whitesmoke;
+}
+
+.nr1 {
+    padding: 10px;
+}
+
+.nr2 {
+    padding: 10px;
+
+}
+
+
+.nr3 {
+    padding: 10px;
+}
+
+
+.nr4 {
+    padding: 10px;
+}
+
 
 
 /************* trello*********/
@@ -434,7 +510,8 @@ h1 {
 #trello {
     text-align: center;
     color: whitesmoke;
-    background-color: #599ea1;
+    background-color: #3a3a3a;
+    padding: 15px;
 }
 
 #trello img {
