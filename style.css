@@ -409,6 +409,18 @@ h1 {
 
 
 
+/*****TEST******/
+
+#usability_test {
+    text-align: center;
+
+}
+
+
+#usability_test h2 {
+    text-align: left;
+}
+
 
 
 /*********FORRETNING******/
