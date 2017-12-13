@@ -650,10 +650,65 @@ h4 {
 .logo {
     text-align: center;
     background-color: #599ea1;
+    padding: 15px;
+
 
 }
 
 
 .title h1 {
     background-color: #599ea1;
+}
+
+
+#produkt {
+    text-align: center;
+    background-color: #3a3a3a;
+
+}
+
+
+#benefits {
+    text-align: center;
+    padding: 15px;
+
+}
+
+#intro {
+    color: whitesmoke;
+    background-color: #3a3a3a;
+    padding: 15px;
+    text-align: center;
+}
+
+#produkt {
+    padding: 15px;
+    background-color: #599ea1;
+}
+
+.iphone {
+    margin: 0 auto;
+    position: relative;
+    background-image: url(img/iphone.svg);
+    background-size: 100%;
+    width: 30vw;
+    height: 63.4vw;
+}
+
+.iphone iframe {
+    position: absolute;
+    left: 4.5%;
+    top: 4%;
+    width: 91%;
+    height: 91%;
+}
+
+#pitch {
+    text-align: center;
+    background-color: #3a3a3a;
+    padding: 15px;
+}
+
+#pitch img {
+    width: 30%;
 }
