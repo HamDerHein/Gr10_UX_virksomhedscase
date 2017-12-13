@@ -22,7 +22,7 @@ nav {
 
 nav {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #83a4ad;
     font-size: 15px;
 }
 
@@ -636,4 +636,24 @@ h4 {
 #personer h3 {
     color: whitesmoke;
     font-size: 20px;
+}
+
+
+
+/*****AFLEVERINGSSITE******/
+
+.logo img {
+    width: 40%;
+
+}
+
+.logo {
+    text-align: center;
+    background-color: #599ea1;
+
+}
+
+
+.title h1 {
+    background-color: #599ea1;
 }
