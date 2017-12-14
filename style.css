@@ -659,6 +659,15 @@ h4 {
 
 }
 
+.logo .logo_img {
+
+    width: 10%;
+    position: absolute;
+    left: 4%;
+    opacity: 0.8;
+    top: 5%;
+}
+
 .logo {
     text-align: center;
     background-color: #599ea1;
